@@ -122,7 +122,22 @@ nav i{
         margin-left: 5px;
     }
 
+@media(max-width:400px){
+    .header{
+        width: 400px;
+  
+    }
 
+    .section__hero{
+        margin-left: -45px;
+    }
+
+
+
+
+
+
+}
 
 
 
