@@ -145,17 +145,23 @@ nav i{
         margin-left: 5px;
     }
 
-@media(max-width:400px){
+@media(max-width:480px){
     .header{
         width: 100%;
   
     }
 
     #section__hero{
-        margin-left: -45px;
+        justify-content: center;
+        text-align: center;
+        background-color: red;
     }
 
-    .section__curriculum{
+    .hero__texto{
+        text-align: center;
+    }
+
+    #section__curriculum{
         max-width: 400px;
         width: 350px;
         margin-left: 20px;
@@ -164,7 +170,7 @@ nav i{
 
  
 
-    .section__jurisprudencia
+    #section__jurisprudencia
     {
         max-width: 350px;
         margin-left: 50px;
