@@ -4,6 +4,7 @@
     display: flex;
     max-width: 992px;
    width: 100%;
+   
 }
 .header__tittle{
     display: none;
@@ -53,9 +54,9 @@ nav i{
     display: flex;
 }
 
-.section__hero{
+#section__hero{
     max-width: 800px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 
@@ -68,6 +69,7 @@ nav i{
     max-width: 800px;
     text-align: center;
     margin-left: 100px;
+   
     
 }
 
@@ -75,14 +77,25 @@ nav i{
     max-width: 900px;
     display: flex;
     text-align: center;
+    
   
     
 }
+
+.curriculum__img{
+    margin-left: 110px;
+}
+
+.img__enzo{
+    margin-left: 110px;
+}
+
 
 .curriculum__conteiner{
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+   ;
     
 }
 
@@ -96,9 +109,18 @@ nav i{
 
 @media(max-width:700px){
 
-    .section__hero{
-        margin-right: 130px;
+    #section__hero{
+        margin-left: -60px;
+        margin-bottom: -60px;
     }
+    .img__enzo{
+        margin-left: 50px;
+    }
+    .curriculum__img{
+        margin-left: 20px;
+    }
+
+
 
 
 }
@@ -128,8 +150,23 @@ nav i{
   
     }
 
-    .section__hero{
+    #section__hero{
         margin-left: -45px;
+    }
+
+    .section__curriculum{
+        max-width: 400px;
+        width: 350px;
+        margin-left: 20px;
+
+    }
+
+ 
+
+    .section__jurisprudencia
+    {
+        max-width: 350px;
+        margin-left: 50px;
     }
 
 
