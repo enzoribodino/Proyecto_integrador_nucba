@@ -127,26 +127,26 @@ nav i{
 
 @media(max-width:592px){
 
-    .section__hero{
-        margin-left: 10px;
+    #section__hero{
+        margin-right: 120px;
 
     }
 
-    .sobre__nosotros{
-        margin-right: 100px;
+    #sobre__nosotros{
+       margin-left: 30px;
     }
 
     .curriculum__conteiner{
         margin-left: 10px;
     }
 
-    .section__jurisprudencia{
+    #section__jurisprudencia{
         margin-left: 5px;
     }
 
 @media(max-width:400px){
     .header{
-        width: 400px;
+        width: 100%;
   
     }
 
@@ -167,6 +167,10 @@ nav i{
     {
         max-width: 350px;
         margin-left: 50px;
+    }
+
+    .footer{
+        width: 100%;
     }
 
 
