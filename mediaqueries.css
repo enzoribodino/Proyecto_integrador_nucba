@@ -128,7 +128,8 @@ nav i{
 @media(max-width:592px){
 
     #section__hero{
-        margin-right: 120px;
+        /* margin-right: 120px; */
+        padding: 120px;
 
     }
 
