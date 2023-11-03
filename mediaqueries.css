@@ -1,0 +1,168 @@
+@media(max-width:992px){
+  
+.header{
+    display: flex;
+    max-width: 992px;
+   width: 100%;
+}
+.header__tittle{
+    display: none;
+
+}
+.header__nametittle{
+    display: none;
+}
+
+.header__navbar{
+  max-width: 992px;
+  width:50%;
+  justify-content:flex-end;
+}
+
+nav i{
+    font-size: 30px;
+    
+}
+
+.menu__label{
+    display: flex;
+    order: 2;
+}
+
+#menu-toggel{
+    display: none;
+}
+
+.header__conteiner-list{
+    position: absolute;
+    top: 100px;
+    padding: 10px 10px 20px 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    left: 5%;
+    background-color: #909090;
+    border: solid 2px lightblue;
+    border-top: 0;
+    border-radius: 0 0 15px 15px;
+    display: none;
+    
+
+}
+#menu-toggel:checked +.header__conteiner-list{
+    display: flex;
+}
+
+.section__hero{
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+
+
+.hero__img{
+    display: none;
+}
+
+.sobre__nosotros{
+    max-width: 800px;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+.section__curriculum{
+    max-width: 900px;
+    display: flex;
+    text-align: center;
+  
+    
+}
+
+.curriculum__conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.section__jurisprudencia{
+    max-width: 800px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+/* mediaqueries hasta 700px  */
+
+@media(max-width:700px){
+
+    .section__hero{
+        margin-right: 130px;
+    }
+
+
+}
+
+@media(max-width:592px){
+
+    .section__hero{
+        margin-left: 10px;
+
+    }
+
+    .sobre__nosotros{
+        margin-right: 100px;
+    }
+
+    .curriculum__conteiner{
+        margin-left: 10px;
+    }
+
+    .section__jurisprudencia{
+        margin-left: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
