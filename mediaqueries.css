@@ -154,7 +154,7 @@ nav i{
     #section__hero{
         justify-content: center;
         text-align: center;
-        background-color: red;
+        
     }
 
     .hero__texto{
@@ -163,8 +163,8 @@ nav i{
 
     #section__curriculum{
         max-width: 400px;
-        width: 350px;
-        margin-left: 20px;
+        width: 50%;
+        margin-left: 120px;
 
     }
 
