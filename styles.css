@@ -19,6 +19,7 @@ body{
     z-index: 1;
     top: 0;
     background: linear-gradient(to bottom, gray, #050c18);
+    
    
 
     
@@ -36,7 +37,7 @@ body{
 }
 
 .header__nametittle{
-    color: black;
+    color: white;
     font-size: 35px;
 }
 
